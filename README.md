@@ -14,9 +14,9 @@ We have made kaipy installed via pip from the PyPi index.  We are currently work
 First step is to create virtual python environment to use with the installation of the tools.  You may chose any name for the environment we are going to use `cgs-kaipy` for this tutorial. Using the conda p
 
 ```
-conda create -n cgs-kaipy python=3.8
-conda activate cgs-kaipy
-pip install kaipy
+()$ conda create -n cgs-kaipy python=3.8
+()$ conda activate cgs-kaipy
+(cgs-kaigy)$ pip install kaipy
 ```
 
 After completing this step you will have a conda virtual environment that has the kaipy packages as well as some scirpts for producing quicklook plots and conducting analysis of MAGE model results.  If you want to use this environment with JupyterLab you need to use ipykernels to make it available to JupyterLab.  Starting by installing `nb_conda_kernels` into your base conda virtual environment.
@@ -43,4 +43,14 @@ making note of this directory or storing it in an environment variable will be h
 (cgs-kaipy)$ setenv CGSKAIPY `pip show -f kaipy | grep Location | awk '{print $2}'
 ```
 
-# Get MAGE Data
+# Globus for MAGE data access
+Simulation data can get quite large and that is certainly the case with the MAGE model components.  We are using Globus to sharing access to simulation results.  You will need to sign up for a free account at [Globus.org](https://www.globus.org).
+
+Once you login into the website you can use the file manager to search for the "GAMERA Parallel Test" collection and download the files to your local machine for data processing.  The files can also be accessed by [clicking here](https://app.globus.org/file-manager?origin_id=2c3a2a06-19e4-41d0-ba3c-77a59e501a67&path=%2F)
+
+<img width="541" alt="image" src="https://github.com/wiltbemj/CGS-Tools/assets/5824382/6011e370-741c-4a18-bd68-051ec1fd8805">
+
+
+
+
+
