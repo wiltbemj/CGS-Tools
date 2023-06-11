@@ -50,6 +50,51 @@ Once you login into the website you can use the file manager to search for the "
 
 <img width="541" alt="image" src="https://github.com/wiltbemj/CGS-Tools/assets/5824382/6011e370-741c-4a18-bd68-051ec1fd8805">
 
+# Jupyter Notebook Example for data Visualization and Analysis
+
+Now we will use the data you downloaded from globus to be the data you can use within a Jupyter Notebook for data visualization and analysis.  
+
+After starting your JupyterLab server you will need to open the KaijuExamplePlot notebook file in the `$CGSKAIPY/kaipy/tutorial/` directory.
+
+In cell number two you will need to set the `fdir` variable to location of the GAMERA files on your computer before executing the notebook. 
+
+Once you execute the notebook you will see this image in cell number 6
+
+<img width="467" alt="image" src="https://github.com/wiltbemj/CGS-Tools/assets/5824382/9d0d34b4-819c-486e-8a6f-0d6a0ac04bda">
+
+The notebook provides the basic instructions for accessing both magnetospheric and ionospheric data.  Where you go from there is entirely up to you!
+
+# Python scripts for visualization and analysis
+
+We have also made available a variety of python scripts for quick look plots, movies, and more robust data analysis. These files are available in the $CGSKAIPY/scripts directory  Here is an incomplete listing of the some of the routines
+
+- msphpic.py – image the magnetosphere
+- gamspVid.py - movie of the magnetosphere
+- mixpic.py – image of ionospheric data
+- cda2wind.py – create solar wind input from CDAWeb
+- genmpiXDMF.py – create XDMF file from parallel run for import into paraview
+
+
+The mixpic script will produce the following image from the Gamera parallel data set.
+<img width="612" alt="image" src="https://github.com/wiltbemj/CGS-Tools/assets/5824382/57bbd145-76a9-497e-b52e-a2ba6b0224cc">
+
+
+
+# Coming Soon – Cloud-based Viz!
+As part of the SPLASH simulation toolkit we are investigating cloud based access to simulation results.  Using the Paraview web visualizer running on a Amazon Cloud instance users will be able to interact in real-time with 3D datasets.  
+
+<img width="816" alt="image" src="https://github.com/wiltbemj/CGS-Tools/assets/5824382/4efc274f-8a5e-4d94-9b7d-090e39efccb6">
+
+# And Cloud-based analysis
+Working with Austrian Open Science Center we have begun efforts to create cloud based instances of JupyterLab with the kiapy analysis tools collocated with simulation results.
+<img width="687" alt="image" src="https://github.com/wiltbemj/CGS-Tools/assets/5824382/a98e3038-064b-4442-9a2b-c91c9c9a5b73">
+
+
+
+
+
+
+
 
 
 
