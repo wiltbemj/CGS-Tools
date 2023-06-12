@@ -2,14 +2,14 @@
 Description of methods to access CGS models results using kaipy
 
 # Introduction
-This repository provides basic instructions for setting up and using the kaipy package for accessing results from the MAGE models.  At the moment this software package is in beta as we would appreicate feedback on the tools as well as contributions.  Questions and feedback can be directed to Michael Wiltberger via email to wiltbem@ucar.edu.
+This repository provides basic instructions for setting up and using the kaipy package for accessing results from the MAGE models.  At the moment this software package is in beta as we would appreciate feedback on the tools as well as contributions.  Questions and feedback can be directed to Michael Wiltberger via email to wiltbem@ucar.edu.
 
-# Prerequsites 
+# Prerequisites 
 The tools for accessin MAGE model data are bulit upon Python so a working knowledge of python is requried to use them.  You will also need an installation of python that allows you to install packages.  While technically not required JupyterLab will also be helpful since we will be providing notebooks that provide examples of ways to plot and access the model results.
 
 # Installing kaipy
 
-We have made kaipy installed via pip from the PyPi index.  We are currently working a more tight integration with conda, but for now pip is the prefered method doing installations.  
+We have made kaipy installable via pip from the PyPi index.  We are currently working a more tight integration with conda, but for now pip is the prefered method doing installations.  
 
 First step is to create virtual python environment to use with the installation of the tools.  You may chose any name for the environment we are going to use `cgs-kaipy` for this tutorial. Using the conda p
 
@@ -44,7 +44,7 @@ making note of this directory or storing it in an environment variable will be h
 ```
 
 # Globus for MAGE data access
-Simulation data can get quite large and that is certainly the case with the MAGE model components.  We are using Globus to sharing access to simulation results.  You will need to sign up for a free account at [Globus.org](https://www.globus.org).
+Simulation data can get quite large and that is certainly the case with the MAGE model components.  We are using Globus for sharing access to simulation results.  You will need to sign up for a free account at [Globus.org](https://www.globus.org).
 
 Once you login into the website you can use the file manager to search for the "GAMERA Parallel Test" collection and download the files to your local machine for data processing.  The files can also be accessed by [clicking here](https://app.globus.org/file-manager?origin_id=2c3a2a06-19e4-41d0-ba3c-77a59e501a67&path=%2F)
 
