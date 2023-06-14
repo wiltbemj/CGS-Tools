@@ -2,7 +2,7 @@
 Description of methods to access CGS models results using kaipy
 
 # Introduction
-This repository provides basic instructions for setting up and using the kaipy package for accessing results from the MAGE models.  At the moment this software package is in beta as we would appreciate feedback on the tools as well as contributions.  Questions and feedback can be directed to Michael Wiltberger via email to wiltbem@ucar.edu.
+This repository provides basic instructions for setting up and using the kaipy package for accessing results from the MAGE models.  At the moment this software package is in beta as we would appreciate feedback on the tools as well as contributions.  Questions and feedback can be directed to Michael Wiltberger via email to wiltbemj@ucar.edu.
 
 # Prerequisites 
 The tools for accessin MAGE model data are bulit upon Python so a working knowledge of python is requried to use them.  You will also need an installation of python that allows you to install packages.  While technically not required JupyterLab will also be helpful since we will be providing notebooks that provide examples of ways to plot and access the model results.
