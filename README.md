@@ -62,6 +62,7 @@ Once you login into the website you can use the file manager to search for the "
 
 To gain access to sample results from the TIEGCM search for "TIEGCM Benchmark 2.0" collection and download the files to your machine.  You can access these files by [clicking here](https://app.globus.org/file-manager?origin_id=9560c246-26e2-45cb-871b-a910475b2bdc&origin_path=%2F)
 
+<img width="541" alt="image" src="https://github.com/wiltbemj/CGS-Tools/assets/5824382/dd1e2e32-4f5e-4c13-9bd4-fd3f0761df89">
 
 
 # Jupyter Notebook Example for data Visualization and Analysis
