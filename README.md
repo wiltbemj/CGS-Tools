@@ -60,6 +60,10 @@ Once you login into the website you can use the file manager to search for the "
 
 <img width="541" alt="image" src="https://github.com/wiltbemj/CGS-Tools/assets/5824382/6011e370-741c-4a18-bd68-051ec1fd8805">
 
+To gain access to sample results from the TIEGCM search for "TIEGCM Benchmark 2.0" collection and download the files to your machine.  You can access these files by [clicking here](https://app.globus.org/file-manager?origin_id=9560c246-26e2-45cb-871b-a910475b2bdc&origin_path=%2F)
+
+
+
 # Jupyter Notebook Example for data Visualization and Analysis
 
 Now we will use the data you downloaded from globus to be the data you can use within a Jupyter Notebook for data visualization and analysis.  
